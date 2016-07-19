@@ -23,3 +23,11 @@ Template:  bento
   font-size: 45px;
   color: #FCB13C;
 }
+
+/* Image slider arrows */
+.sow-sld-icon-ultra-thin-left { display:none !important}
+.sow-sld-icon-ultra-thin-right { display:none !important}
+
+/* Blog arrows */
+.sow-carousel-next { display:none !important}
+.sow-carousel-previous { display:none !important}
