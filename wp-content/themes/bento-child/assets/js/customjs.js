@@ -6,6 +6,7 @@ jQuery(document).ready(function($) {
 	$(".footer-copyright").html("© 2016 "+"<a href='http://genesis-paedeia.org/' target='_blank'>"+"www.genesis-paedeia.org</a> - "
 		+"<a href='http://www.hyphensa.com/site/index.php/en/' target='_blank' >hyphen SA</a>");
 
+
   // Create back-to-top button
   var html = "<a href='#' class='back-to-top' style='display: inline;'><i class='fa fa-arrow-circle-up'></i></a>";
   $(".footer-copyright").append(html);
@@ -28,6 +29,6 @@ jQuery(document).ready(function($) {
   });
 
 
-  
+
 
 });
