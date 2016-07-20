@@ -31,3 +31,6 @@ Template:  bento
 /* Blog arrows */
 .sow-carousel-next { display:none !important}
 .sow-carousel-previous { display:none !important}
+
+/* Flag icons padding*/
+.languages { padding: 10px}
