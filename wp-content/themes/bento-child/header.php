@@ -27,14 +27,15 @@
     <?php // This encompasses the visible part of the website ?>
 
     <body <?php body_class(); ?>>
-
+      <div class="wrapper" >
 		<?php do_action('bnt_body_top'); ?>
 
 		<?php echo satori_option( 'bnt_analytics_code' ); ?>
 
 		<?php bnt_novice_header(); ?>
 
-		<div class="site-wrapper clear">
+<!--		<div class="site-wrapper clear"> -->
+
 
 			<header class="site-header no-fixed-header">
             	<div class="bnt-container">
