@@ -31,14 +31,16 @@ jQuery(document).ready(function($) {
   var link = "<a href='http://localhost/genesis-paedeia/blog' target='_blank' style='display: inline;text-decoration:none;'>Blog</a>"
   jQuery('.blog-section').find('.widget-title').html(link);
 
-  // Screen size .post-header
-  var screenheight = screen.height;
-  jQuery('.post-header').height(screenheight);
+  // resize event of the window object
+  jQuery(window).load(function() {
+    // window size .post-header
+    var screenheight = $(window).height();
+    jQuery('.post-header-container').height(screenheight);
 
-  // scroll down icon
-  var down = "<div class='arrow-down'><a href='#three' class=''><i class='fa fa-chevron-down'></i></a></div>";
-  jQuery('.post-header-title').append(down);
-
+    // scroll down icon
+    var down = "<div class='arrow-down'><a href='#three' class=''><i class='fa fa-chevron-down'></i></a></div>";
+    jQuery('.post-header-title').append(down);
+  });
 
 
 });
