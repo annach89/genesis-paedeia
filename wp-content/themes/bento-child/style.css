@@ -21,7 +21,11 @@ Template:  bento
 }
 .back-to-top i {
   font-size: 45px;
-  color: #FCB13C;
+  color: #FEE96E;
+}
+
+.back-to-top i:hover{
+  color: #FDBB37;
 }
 
 /* Image slider arrows */
@@ -34,3 +38,27 @@ Template:  bento
 
 /* Flag icons padding*/
 .languages { padding: 10px}
+
+/* Sticky footer */
+* {
+	margin: 0;
+}
+html, body {
+	height: 100%;
+}
+.wrapper {
+	min-height: 100%;
+	height: auto !important; /* This line and the next line are not necessary unless you need IE6 support */
+	height: 100%;
+	margin: 0 auto -81px; /* the bottom margin is the negative value of the footer's height */
+}
+.footer, .push {
+	height: 81px; /* .push must be the same height as .footer */
+}
+
+/* Arrow down */
+.arrow-down i {
+  font-size: 30px;
+  color: #ffffff;
+}
+.arrow-down {text-align: center; margin-top: 20%}
