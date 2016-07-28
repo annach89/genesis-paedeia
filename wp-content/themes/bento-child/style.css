@@ -61,4 +61,22 @@ html, body {
   font-size: 30px;
   color: #ffffff;
 }
-.arrow-down {text-align: center;}
+
+.arrow-down {
+  text-align: center;
+  position: absolute;
+  left: 50%;
+  top: 90%;
+}
+
+.home .site-content {
+  padding-top: 0
+}
+
+.post-header-container .post-header-title {
+  padding-top: 18%
+}
+
+.wrapper .post-header {
+      background-position: 88% 100%;
+}
